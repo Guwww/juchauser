@@ -394,7 +394,8 @@
     display: inline-block;
     margin-right: 16px;
 }
-.p-t .p-t-a:hover{
+
+.p-t a:hover,.p-s .p-jl:hover{
     text-decoration: underline;
 }
 .p-info i{
