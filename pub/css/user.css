@@ -454,6 +454,7 @@
     font-size: 34px;
     color: #333;
     font-family: DINProM;
+    letter-spacing: -1px;
 }
 .p-data .l-num.yellow{
     color: #ff6600;
@@ -564,7 +565,7 @@
 }
 .right-ul li{
     position: relative;
-    padding-left: 10px;
+    padding-left: 12px;
     display: block;
     line-height: 36px;
     color: #666;
@@ -581,7 +582,7 @@
     display: inline-block;
     width: 0;
     height: 0;
-    border-left: 5px solid #999;
+    border-left: 6px solid #999;
     border-bottom: 5px solid transparent;
     border-top: 5px solid transparent;
 }
