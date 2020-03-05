@@ -10,6 +10,7 @@
     <meta name="keywords" content="过期域名,域名抢注,域名注册,域名申请,域名查询,域名购买,域名交易,域名出售,聚名网,juming.com" />
     <link rel="shortcut icon" href="./pub/img/juming_ico.ico" />
     <link rel="stylesheet" type="text/css" href="./pub/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="./pub/layui/css/layui.css" />
     <script src="./pub/js/jquery.js" language="javascript"></script>
     <script src="./pub/js/common.js" language="javascript"></script>
     <script type="text/javascript">
@@ -148,6 +149,7 @@
 
     <link rel="stylesheet" type="text/css" href="./pub/css/user.css" />
     <script type="text/javascript" src="./pub/js/index.js"></script>
+    <script type="text/javascript" src="./pub/layui/layui.js"></script>
 
     <div class="page-layout bggray">
         <div class="layout z-main">
@@ -172,6 +174,7 @@
 
             <div class="u-container u-second bbox clearfix">
                 <div class="u-left fl">
+
 
                     <div class="u-nav bbox">
                         <ul>
@@ -207,7 +210,7 @@
                                     <a href=":;">兑换记录</a>
                                     <a href=":;">价格说明</a>
                                 </div>
-                            </li> 
+                            </li>
                         </ul>
                         <div class="nav-bottom">
                             <a class="nav-out">退出</a>
@@ -218,130 +221,126 @@
                 <div class="u-right bbox fr">
                     <div class="right-box">
                         <div class="u-tit bbox">
-                            <span class="tit-left fl">消息通知</span>
+                            <span class="tit-left fl">我的关注</span>
+                            <a class="tit-follow fr" href="javascript:;">查询记录</a>
                         </div>
 
+
                         <div class="u-station-box bbox">
-                            <div class="station-head bbox clearfix">
-                                <div class="head-title fl">
-                                    <span class="on">全部消息</span>
-                                    <span>已读</span>
-                                    <span>未读</span>
+
+                            <div class="common-sx">
+                                <span>常用筛选：</span>
+                                <a class="f">高PR</a>
+                                <a>高权重</a>
+                                <a>高外链</a>
+                                <a>高收录</a>
+                                <a>高年龄</a>
+                                <a>QQ绿色认证</a>
+                                <a>百度V认证</a>
+                                <a>高估价</a>
+                                <a>0元预定</a>
+                            </div>
+
+                            <div class="sx-check clearfix">
+                                <div class="head-sel fl">
+                                    <span>时间：</span>
+                                    <input class="inp1 bbox time1" type="text" placeholder="请选择时间范围起始" />
+                                    <span class="sx-line"></span>
+                                    <input class="inp2 bbox time2" type="text" placeholder="请选择时间范围结束" />
                                 </div>
-                                <div class="head-sel fr">
+
+
+
+                                <div class="head-sel fl">
                                     <span>类型：</span>
                                     <select class="sel">
                                         <option>请选择</option>
-                                        <option>离线查询</option>
+                                        <option>已完成</option>
                                     </select>
                                 </div>
+
+                                <div class="head-sel fl">
+                                    <span>记录值：</span>
+                                    <input class="inp3 bbox" type="text" placeholder="联动的数值" />
+                                </div>
+
+                                <button class="sx-btn bbox default-btn fr">筛选</button>
                             </div>
+
                             <div class="cha-list-box">
                                 <table class="cha-table" width="100%" cellspacing="0" cellpadding="0">
                                     <thead>
                                         <tr>
-                                            <th width="60" align="center">
-                                                <label class="jm-checkbox-wrapper checkAll">
-                                                    <span class="jm-checkbox  ">
-                                                        <input type="checkbox" class="jm-checkbox-input" value="">
-                                                        <span class="jm-checkbox-inner"></span>
-                                                    </span>
-                                                </label>
-                                            </th>
-                                            <th width="80">状态</th>
-                                            <th width="170">类型</th>
-                                            <th width="410">标题</th>
+                                            <th width="100" align="center">序号</th>
+                                            <th width="220">域名</th>
+                                            <th width="200">类型</th>
+                                            <th width="150">记录</th>
                                             <th width="150">时间</th>
                                         </tr>
                                     </thead>
                                     <tbody>
 
-                                        <tr id="fs_1">
-                                            <td align="center">
-                                                <label class="jm-checkbox-wrapper">
-                                                    <span class="jm-checkbox ">
-                                                        <input type="checkbox" class="jm-checkbox-input" value="">
-                                                        <span class="jm-checkbox-inner"></span>
-                                                    </span>
-                                                </label>
-                                            </td>
-                                            <td>未读</td>
-                                            <td>域名PUSH</td>
-                                            <td>
-                                                <span class="tr-span blue" onclick="return showMsg(1);">您收到来自【216232】的域名PUSH</span>
-                                            </td>
+                                        <tr>
+                                            <td align="center">1</td>
+                                            <td>jucha.com</td>
+                                            <td>搜狗权重</td>
+                                            <td>5</td>
                                             <td>2019-07-11 10:01:19</td>
                                         </tr>
-                                        <tr id="nr_1" class="tr-nr">
-                                            <td colspan="5">
-                                                <p>您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH</p>
-                                            </td>
-                                        </tr>
-
-                                        <tr id="fs_2">
-                                            <td align="center">
-                                                <label class="jm-checkbox-wrapper">
-                                                    <span class="jm-checkbox ">
-                                                        <input type="checkbox" class="jm-checkbox-input" value="">
-                                                        <span class="jm-checkbox-inner"></span>
-                                                    </span>
-                                                </label>
-                                            </td>
-                                            <td>未读</td>
-                                            <td>域名PUSH</td>
-                                            <td>
-                                                <span class="tr-span blue" onclick="return showMsg(2);">您收到来自【216232】的域名PUSH</span>
-                                            </td>
+                                        <tr>
+                                            <td align="center">1</td>
+                                            <td>jucha.com</td>
+                                            <td>搜狗权重</td>
+                                            <td>5</td>
                                             <td>2019-07-11 10:01:19</td>
                                         </tr>
-                                        <tr id="nr_2" class="tr-nr">
-                                            <td colspan="5">
-                                                <p>您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH</p>
-                                            </td>
-                                        </tr>
-
-
-                                        <tr id="fs_3">
-                                            <td align="center">
-                                                <label class="jm-checkbox-wrapper">
-                                                    <span class="jm-checkbox ">
-                                                        <input type="checkbox" class="jm-checkbox-input" value="">
-                                                        <span class="jm-checkbox-inner"></span>
-                                                    </span>
-                                                </label>
-                                            </td>
-                                            <td>未读</td>
-                                            <td>域名PUSH</td>
-                                            <td>
-                                                <span class="tr-span blue" onclick="return showMsg(3);">您收到来自【216232】的域名PUSH</span>
-                                            </td>
+                                        <tr>
+                                            <td align="center">1</td>
+                                            <td>jucha.com</td>
+                                            <td>搜狗权重</td>
+                                            <td>5</td>
                                             <td>2019-07-11 10:01:19</td>
                                         </tr>
-                                        <tr id="nr_3" class="tr-nr">
-                                            <td colspan="5">
-                                                <p>您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH您收到来自【216232】的域名PUSH</p>
-                                            </td>
+                                        <tr>
+                                            <td align="center">1</td>
+                                            <td>jucha.com</td>
+                                            <td>搜狗权重</td>
+                                            <td>5</td>
+                                            <td>2019-07-11 10:01:19</td>
                                         </tr>
+                                        <tr>
+                                            <td align="center">1</td>
+                                            <td>jucha.com</td>
+                                            <td>搜狗权重</td>
+                                            <td>5</td>
+                                            <td>2019-07-11 10:01:19</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">1</td>
+                                            <td>jucha.com</td>
+                                            <td>搜狗权重</td>
+                                            <td>5</td>
+                                            <td>2019-07-11 10:01:19</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">1</td>
+                                            <td>jucha.com</td>
+                                            <td>搜狗权重</td>
+                                            <td>5</td>
+                                            <td>2019-07-11 10:01:19</td>
+                                        </tr>
+
 
 
 
 
                                         <tr class="last-tr">
-                                            <td colspan="5">
+                                            <td colspan="7">
                                                 <div class="cha-list-bottom bbox clearfix">
-                                                    <div class="fl">
-                                                        <label class="jm-checkbox-wrapper checkAll">
-                                                            <span class="jm-checkbox  ">
-                                                                <input type="checkbox" class="jm-checkbox-input" value="">
-                                                                <span class="jm-checkbox-inner"></span>
-                                                            </span>
-                                                            &nbsp;&nbsp;<a>全选</a>
-                                                        </label>
-                                                        <span class="mark-btn">标记为已读</span>
-                                                    </div>
-                                                    <div class="bottom-page fr">
-                                                        <a><</a>
-                                                        <a>1</a>
+                                                    <div class="bottom-page v-center">
+                                                        <a>
+                                                            <</a> <a>1
+                                                        </a>
                                                         <a>2</a>
                                                         <a>3</a>
                                                         <a>4</a>
@@ -369,6 +368,22 @@
     </div>
 
 
+    <script>
+        //一般直接写在一个js文件中
+        layui.use(['laydate'], function () {
+            var laydate = layui.laydate;
+            //日期时间选择器
+            laydate.render({
+                elem: '.time1'
+                ,type: 'datetime'
+            });
+            laydate.render({
+                elem: '.time2'
+                ,type: 'datetime'
+            });
+
+        })
+    </script>
 
 
     <div class="footer">

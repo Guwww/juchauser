@@ -1,0 +1,386 @@
+#cha-container {
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #f8f9fa;
+}
+
+.cha-wrap,
+.cha-list-wrap {
+    width: 1176px;
+    margin: 0 auto;
+    font-size: 12px !important;
+    background-color: #fff;
+}
+
+.cha-wrap h4 {
+    line-height: 44px;
+    font-size: 16px;
+    color: #108ee9;
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+}
+
+.cha-wrap h4 span {
+    float: right;
+    font-size: 12px;
+    color: #ff5722
+}
+
+.cha-box {
+    padding: 0 0 0 12px;
+    /* border: 1px solid #e9ecef */
+}
+
+.cha-title {
+    width: 70px;
+    float: left;
+    color: #222;
+    text-align: right;
+}
+
+.cha-list {
+    padding: 3px 0;
+    clear: both;
+    border-bottom: 1px dashed #e9ecef;
+    overflow: hidden;
+    line-height: 26px;
+    color: #404040;
+}
+
+/* .cha-list:last-child {
+    border-bottom: 0;
+        padding: 10px 0;
+} */
+.cha-bottom {
+    padding: 16px 0;
+    border-bottom: none;
+}
+
+.teshu ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.teshu {
+    line-height: 20px;
+}
+
+.cha-list a {
+    margin-left: 16px;
+    color: #108ee9;
+    transition: all .3s;
+}
+
+.cha-list a:hover {
+    color: #036bb7;
+}
+
+.teshu ul li {
+    float: left;
+}
+
+.teshu ul li:last-child {
+    border-right: none
+}
+
+.teshu ul li a:hover {
+    color: #108ee9
+}
+
+.teshu a {
+    display: block;
+    margin: 0;
+    color: #888;
+    line-height: 1;
+    transition: all .3s;
+    padding: 4px 8px;
+    border: 1px solid #e3e6e8;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.teshu a.active {
+    border: 1px solid #108ee9;
+    color: #108ee9;
+}
+
+.teshu .cha-title {
+    line-height: 24px;
+}
+
+.cha-list .jm-input {
+    color: #ff5722
+}
+
+.quick-cha .jm-picker {
+    margin-right: 20px;
+}
+
+.quick-cha .jm-plus {
+    margin-right: 12px;
+}
+
+.quick-cha .jm-domain {
+    margin-right: 0;
+}
+
+.quick-cha .jm-checkbox-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-right: 10px; */
+}
+
+.cha-more {
+    width: 12px;
+    float: left;
+    color: #108ee9;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.jm-checkbox-wrapper span {
+    font-size: 12px;
+}
+
+.cha-pc {
+    /* margin-left: 240px; */
+}
+
+.quick-wrap {
+    display: block;
+    overflow: hidden;
+    padding: 2px 0;
+}
+
+.quick-cha-more {
+    display: block;
+    margin-right: 10px;
+    padding: 2px 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.cha-cd {
+    margin-left: 68px;
+}
+
+.cd-line {
+    padding: 0 9.5px;
+    float: left;
+    color: #ccc
+}
+
+.wxcha .jm-picker {
+    /* margin-right: 64px!important; */
+}
+
+.wxcha .jm-radio-group {
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+.cha-tip {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-right: 34px;
+    background: url(../img/wenhao.png) no-repeat center;
+}
+
+.sc-time .jm-checkbox-wrapper span,
+.cha-list-wrap .jm-checkbox-wrapper span {
+    font-size: 12px;
+}
+
+.cha-submit,
+.cha-reset {
+    display: inline-block;
+    width: 120px;
+    margin-right: 18px;
+}
+
+.cha-reset {
+    margin-left: 0px;
+}
+
+/* .cha-submit {
+    margin-left: 79px;
+} */
+.btn-grey,
+.btn-grey:hover {
+    background-color: #fff;
+    color: #919191;
+    border: 1px solid #d9d9d9;
+}
+
+.cha-s .jm-picker {
+    margin-right: 40px !important;
+    line-height: 26px;
+}
+
+.cha-s .cha-title {
+    display: inline-block;
+    float: none;
+}
+
+.cha-list-title {
+    padding-top: 18px;
+    padding-bottom: 12px;
+    background: #f8f9fa;
+    color: #404040;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+.cha-list-title strong {
+    font-weight: 400;
+    color: #ff5722;
+}
+
+.cha-list-title button {
+    float: right;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.cha-bottom .jm-last {
+    margin-right: 16px !important;
+}
+
+
+.jm-select-dropdown-list {
+    padding: 12px;
+}
+.jm-select-dropdown input {
+    color: #ff5722
+}
+.jm-select-dropdown-list li {
+    float: left;
+    width: 72px;
+    height: 36px;
+    cursor: pointer;
+    transition: all .3s;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+    color: #404040;
+}
+.jm-select-dropdown-list ul {
+    border-bottom: 1px dashed #e9ecef;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.jm-select-dropdown-list li:hover,.jm-select-dropdown-list li.active {
+    background-color: #e1f5fe;
+}
+
+.jm-select-dropdown-list button {
+    height: 32px;
+    border: 1px solid #e9ecef;
+    line-height: 32px;
+    text-align: center;
+    background-color: #fff;
+    color: #404040;
+}
+.ymhz button:first-child {
+    float: left;
+    width: 70px;
+}
+#bx.active1 {
+    background-color: #e1f5fe;
+}
+.ymhz button.ymhz-zdy {
+    float: right;
+    width: 202px;
+}
+.ymhz-input .jm-input {
+    width: 130px;
+    height: 32px;
+    border-radius: 0
+}
+.ymhz-input button {
+    float: right;
+    width: 72px;
+    height: 32px;
+    border-radius: 0;
+        background-color: #108ee9;
+    border-color: #108ee9;
+    color: #fff;
+}
+.sogou-zdy {
+    line-height: 32px;
+}
+.sogou-zdy input {
+    width: 76px!important;
+    text-align: center;
+    text-indent: 0
+}
+.sogou-zdy input:first-child {
+    margin-left: 7px;
+}
+.sogou-zdy button {
+    width: 64px!important;
+    text-align: center;
+}
+.ymhz-input span {
+    padding: 0 10px;
+}
+.jzjl li {
+    width: 80px;
+}
+.jzjl-zdy button {
+    width: 80px;
+    border-radius: 0;
+}
+.jzjl-zdy button:first-child:hover {
+    color: #fff;
+}
+.jzjl-zdy button:last-child {
+    background-color: #108ee9;
+    border-color: #108ee9;
+    color: #fff;
+}
+
+.jzjl-zdy button:last-child:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+.jzls button {
+    width: 124px!important;
+}
+.jzls  h6 {
+    margin-bottom: 8px;
+    clear: both;
+}
+.jzls h6:first-child {
+    margin-top: 0
+}
+.jzls .jm-picker {
+    width: 113px!important;
+}
+.jzlss {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.jzls li {
+    width: 84px;
+}
+.jzls ul {
+    border-bottom: 0;
+}
+.jzlss1{
+    margin-bottom: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed #e9ecef;
+}
+.jzls .jzjl-zdy {
+    padding-top: 12px;
+}
+.checkAll + .cha-submit {
+    margin-left: 0px
+}

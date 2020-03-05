@@ -1,0 +1,28 @@
+[
+    code: 0,
+    msg: "",
+    {   
+        id: 10000, 
+        domain: "ujuming.com", 
+        length: "5", 
+        msg: "[PR2] [权重1] [S收录111] [B收录111] [S反链111] [B反链111] [建站10年,…", 
+        eva: "888888", 
+        Original: 2002年
+    },
+    {   
+        id: 10001, 
+        domain: "ujuming.com", 
+        length: "5", 
+        msg: "[PR2] [权重1] [S收录111] [B收录111] [S反链111] [B反链111] [建站10年,…", 
+        eva: "888888", 
+        Original: 2002年
+    },
+    {   
+        id: 10002, 
+        domain: "ujuming.com", 
+        length: "5", 
+        msg: "[PR2] [权重1] [S收录111] [B收录111] [S反链111] [B反链111] [建站10年,…", 
+        eva: "888888", 
+        Original: 2002年
+    }
+]
