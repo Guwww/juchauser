@@ -891,6 +891,12 @@ a:hover{
     font-size: 16px;
 }
 .point-card .card-inp{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
     width: 266px;
     height: 34px;
     margin-left: 20px;
@@ -908,6 +914,12 @@ a:hover{
     margin-left: 25px;
     background-color: #108ee9;
     cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.point-card .card-btn:hover{
+    background-color: #40a9ff;
+    border-color: #40a9ff;
 }
 .point-card .card-error{
     margin-top: 20px;
@@ -974,7 +986,13 @@ a:hover{
     line-height: 32px;
     color: #fff;
     text-align: center;
-	background-color: #108ee9;
+    background-color: #108ee9;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.point-check .check-btn:hover{
+    background-color: #40a9ff;
+    border-color: #40a9ff;
 }
 
 /* 价格说明 */
